@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+ 
+    <TextView
+        android:id="@+id/inputText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="몇 개의 단어를 비우시겠습니까 : "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+ 
+    <EditText
+        android:id="@+id/editTextDialogUserInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" >
+ 		
+        <requestFocus />
+ 
+    </EditText>
+ 
+ 	<Button
+ 	    android:id="@+id/inputOk"
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="wrap_content"
+ 	    android:text="확인"
+ 	    />
+ 	    
+</LinearLayout>

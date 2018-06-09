@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/findWord_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+ 
+    <TextView
+        android:id="@+id/findWordText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="찾으시는 단어를 입력하세요 "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+ 
+    <EditText
+        android:id="@+id/editTextDialogUserFindWordInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+ 		
+        <requestFocus />
+ 
+    </EditText>
+ 
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+	 	android:layout_height="wrap_content"
+        >
+	 	<Button
+	 	    android:id="@+id/findInputOk"
+	 	    android:layout_width="wrap_content"
+	 	    android:layout_height="wrap_content"
+	 	    android:text="확인"
+	 	    />
+	 	
+	 	<Button
+	 	    android:id="@+id/findInputCancle"
+	 	    android:layout_width="wrap_content"
+	 	    android:layout_height="wrap_content"
+	 	    android:text="취소"
+	 	    />
+ 	</LinearLayout>
+</LinearLayout>

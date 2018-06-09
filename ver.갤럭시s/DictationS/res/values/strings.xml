@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">힐링캠프</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">힐링캠프</string>
+    <string name="title_newActivity_main">newActivity</string>
+    <string name="title_main">main</string>
+	<string name="button_text">클릭.</string>
+</resources>
